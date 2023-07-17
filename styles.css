@@ -69,12 +69,12 @@ main {
     grid-template-columns: 1fr 1fr;
     max-width: 90vh;
     background: var(--clr-white);
-    padding: 1rem;
+    padding: 1.5rem;
     border-radius: 2rem;
 }
 
 .content {
-    padding: 5rem 2rem;
+    padding: 5rem 3rem;
     display: grid;
     flex-direction: column;
     align-content:start;
