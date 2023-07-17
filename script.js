@@ -4,4 +4,5 @@ document.getElementById('emailForm').addEventListener('submit', (event) => {
      var email = document.getElementById('email').value;
 
      console.log('Email', email);
+     event.target.reset();
 })

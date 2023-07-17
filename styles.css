@@ -118,3 +118,32 @@ ul {
 .feature-img img {
   /* object-fit: none; */
 }
+
+#emailForm {
+  display:flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+label {
+  font-size: .7rem;
+  font-weight: 900;
+}
+
+#email {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: .9rem;
+  border-width: thin;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+  font-size: .9rem;
+  font-weight: 900; 
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  color: var(--clr-white);
+  background-image: linear-gradient(to right, hsl(345, 100%, 67%), hsl(0, 100%, 67%), hsl(4, 100%, 67%));
+}
